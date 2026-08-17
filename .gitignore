@@ -28,6 +28,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+temp_auto_push.bat
 
 # Virtual Environment
 venv/
@@ -39,7 +40,6 @@ venv_linux/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -59,3 +59,5 @@ feedback.db-*
 
 # Committed virtual environments are machine-specific — never commit them
 venv_linux/
+.gitignore
+branch_structure.json
